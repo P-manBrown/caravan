@@ -37,12 +37,15 @@ header .heading {
   height: 300px; /* 高さ300px */
   background-image: url(img/mv.jpg);
   background-size: cover;/* 縦横比を維持したまま背景領域を埋め尽くす */
-  background-position: ;
+  background-position: center;
 }
 
 .main-visual-content {
-  width: 350px; /* 横幅350px */
+  width: 40%; /* 横幅40% */
   height: 300px; /* 親の高さに揃える */
+  background-color: rgba(0,0,0,0.5);/* 背景色を半透明の黒にする */
+  text-align: center;/* 文字の中央揃え */
+  padding-top: 105px;/* 上側の内側余白で垂直方向の位置を調整 */
 }
 
 .main {
