@@ -9,11 +9,7 @@ a {
   text-decoration: none;
 }
 
-header,
-nav,
-h2,
-.main-vizual,
-footer {
+header,nav,h2,.main-vizual,footer {
   font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
@@ -229,4 +225,45 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width:425px) {
+  header {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .social i {
+    margin-left: 0px;
+  }
+
+  main {
+    width: 100%; 
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin-right: 0px; /* 領域の右側余白 */
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+  
+  .blog-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: center;
+  }
+
+  .instagram .sidebar-contents {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
 }
